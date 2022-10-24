@@ -1,3 +1,5 @@
+# check also this guy https://leetcode.com/problems/isomorphic-strings/discuss/57941/Python-different-solutions-(dictionary-etc).
+
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
         d = {}
@@ -10,4 +12,3 @@ class Solution:
             else:
                 d[a] = b
         return True
-        
