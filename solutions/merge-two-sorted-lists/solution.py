@@ -1,3 +1,5 @@
+# omg https://leetcode.com/problems/merge-two-sorted-lists/discuss/9771/Simple-5-lines-Python
+
 class Solution:
     def mergeTwoLists(self, node1: Optional[ListNode], node2: Optional[ListNode]) -> Optional[ListNode]:
         cur = dummy = ListNode()
